@@ -1,17 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
+    overflow: hidden;
+    /* position: sticky; */
+    /* border-bottom: 2px solid #006A4E; */
+    -webkit-box-shadow: -10px 6px 6px -5px #000; 
+    box-shadow: -10px 6px 6px -5px #000;
+    z-index: 999;
+    margin: 0px;
+}
+
+.left{
+    width: 50%;
 }
 .left img{
     width: 100px;
     height: 40px;
+    margin-left: 30px;
 }
 
-.right{
+.middle{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 40%;
+    margin-right: -92px;
+    z-index: 999;
 }
 
 
@@ -40,7 +65,107 @@
     font-size: 19px;
 }
 
-.cart-img{
+.middle-img{
     width: 100px;
     height: 40px;
 }
+
+.middle-img2{
+    width: 80px;
+    height: 30px;
+}
+
+.cart-board{
+    background-color: #006A4E;
+    width: 10%;
+    height: 100%;
+    margin: 0px;
+    padding: 2px;
+    color: white;
+    /* z-index: 0; */
+}
+
+.cart-img{
+    width: 30px;
+}
+
+.cart-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding:2px 0; */
+    /* margin-bottom: -2px; */
+    margin: 0;
+}
+
+.cart-amount {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.divider{
+    width: 70%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #7AB1A3;
+}
+
+.cart-currency{
+    margin-left: 5px;
+    /* font-weight: bolder; */
+}
+
+
+.main-section{
+    margin-top: 1px;
+    /* padding: 0 10px; */
+}
+
+.left-section{
+    height: 100vh;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: block;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    /* text-align: center; */
+    margin: 0px;
+}
+
+
+.left-section::-webkit-scrollbar {
+    width: 6px;
+ }
+  
+  /* Track */
+  .left-section::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .left-section::-webkit-scrollbar-thumb {
+    background: gray; 
+    /* border-radius: 50px; */
+  }
+
+  .menu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #006A4E;
+      cursor: pointer;
+      transition: transform 1s;
+      margin-bottom: -15px;
+  }
+
+  .menu:hover{
+      transform: translateX(20px);
+  }
+
+  .menu-img{
+      width: 30px;
+      margin-right: 10px;
+  }
+
+
+  
