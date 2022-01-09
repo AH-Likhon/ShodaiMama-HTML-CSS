@@ -28,6 +28,7 @@ body{
     width: 100px;
     height: 40px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .middle{
@@ -45,12 +46,14 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .right-img{
     width: 20px;
     height: 20px;
     color: #006A4E;
+    cursor: pointer;
 }
 
 .fa-map-marker-alt, .fa-user{
@@ -68,11 +71,13 @@ body{
 .middle-img{
     width: 100px;
     height: 40px;
+    cursor: pointer;
 }
 
 .middle-img2{
     width: 80px;
     height: 30px;
+    cursor: pointer;
 }
 
 .cart-board{
@@ -82,6 +87,7 @@ body{
     margin: 0px;
     padding: 2px;
     color: white;
+    cursor: pointer;
     /* z-index: 0; */
 }
 
@@ -123,7 +129,7 @@ body{
 
 .left-section{
     height: 100vh;
-    width: 15%;
+    width: 18%;
     /* border: 1px solid black; */
     display: block;
     scroll-behavior: smooth;
@@ -151,13 +157,17 @@ body{
   .menu{
       display: flex;
       align-items: center;
-      justify-content: center;
-      color: #006A4E;
+      justify-content: flex-start;
+      margin-left: 20px;
+      color: #006a4e;
       cursor: pointer;
       transition: transform 1s;
       margin-bottom: -15px;
+      font-size: 15px;
+      font-weight: bolder;
   }
 
+  
   .menu:hover{
       transform: translateX(20px);
   }
@@ -166,6 +176,31 @@ body{
       width: 30px;
       margin-right: 10px;
   }
+
+  .logo-title{
+      background-color: #e4e0e0;
+      text-align: center;
+      font-size: 15px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+  }
+
+  .explore{
+      color: #808087; 
+  }
+
+  .shodai{
+      color: #006A4E; 
+      margin-right: -6px;
+  }
+  .mama{
+      color: #FB6801; 
+  }
+
+
 
 
   
