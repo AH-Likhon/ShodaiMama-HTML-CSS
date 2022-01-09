@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left img{
+    width: 100px;
+    height: 40px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+.right-img{
+    width: 20px;
+    height: 20px;
+    color: #006A4E;
+}
+
+.fa-map-marker-alt, .fa-user{
+    color: #006A4E;
+    font-size: larger;
+    margin:0 5px;
+} 
+
+.display p{
+    font-weight: bolder;
+    color: #006A4E;
+    font-size: 19px;
+}
+
+.cart-img{
+    width: 100px;
+    height: 40px;
+}
