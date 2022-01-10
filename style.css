@@ -296,7 +296,7 @@ body{
     background: url('/images/slider1.png');
     background-size: 100% 100%;
     /* background-size: cover; */
-    animation: slider 20s infinite linear;
+    animation: slider 2s infinite linear;
   }
 
   @keyframes slider{
@@ -339,21 +339,21 @@ body{
     opacity: 1;
   } 
 
-  .preloader-category-box{
+  .box{
       position: relative;
       top: -662px;
       left: 285px;
       width: 100%;
-      padding: 15px 0px;
-      margin-top: 30px;
-      background-color: #F1F1F1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      color: #313131;
+  }
 
-      /* border-left: 10px solid black; */
-      /* border-radius: 20px 0px 0px 20px; */
+  .preloader-category-box{
+    padding: 15px 0px;
+    margin-top: 30px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #313131;
   }
 
   .custom-border{
@@ -382,9 +382,144 @@ body{
       font-weight: 400;
   }
 
-  /* .preloader-category-box p, .preloader-category-box h3{
-      margin-left: 50px;
-  } */
+  /* card start  */
+  .card{
+      margin: 20px 0px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 25px;
+  }
+  .card-item{
+      width: 280px;
+      /* border: 1px solid black; */
+      text-align: center;
+      box-shadow: 0px 1px 4px 1px rgba(105,96,96,0.56);
+      -webkit-box-shadow: 0px 1px 4px 1px rgba(105,96,96,0.56);
+      -moz-box-shadow: 0px 1px 4px 1px rgba(105,96,96,0.56);
+      border-radius: 3px;
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+      /* margin: 10px 0px; */
+  }
+
+  .card-img{
+      width: 90%;
+      cursor: pointer;
+      transition: transform 1s linear;
+      border: none;
+  }
+
+  .card-img:hover{
+      transform: scale(1.1);
+  }
+
+  .card-body{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 10px;
+  }
+
+  .card-body p{
+      font-size: 16px;
+      font-weight: 500;
+      color: #615e58;
+  }
+
+  .card-img-fresh{
+      width: 50%;
+      margin: 5px 0px;
+      transition: transform 1s linear;
+      border: none;
+  }
+
+  .card-img-fresh:hover{
+      transform: scale(1.1);
+  }
+
+  .category-title{
+      background-color: #44BD32;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 3px;
+      position: absolute;
+      top: 10px;
+  }
+
+  .card-item h6{
+      margin: 0px;
+      font-size: 20px;
+      line-height: 25px;
+      color:#1a1a1a;
+      font-weight: 500;
+  }
+
+  .card-item p{
+      color: #fb6801;
+      font-weight: 500;
+      font-size: 14px;
+      margin: 8px 0px;
+  }
+
+  .amount{
+      font-weight: bold;
+  }
+
+  .fresh-category{
+      height: 400px;
+  }
+
+  .details-btn{
+      text-decoration: none;
+      color: #006a4e;
+      font-weight: 600;
+      font-size: 13px;
+      border: 1px solid #006a4e;
+      padding: 3px 15px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      cursor: pointer;
+  }
+
+  .card-extra-information{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px 0px;
+  }
+
+  .card-extra-img{
+      width: 10%;
+  }
+
+  .bike{
+      margin-right: -35px;
+  }
+
+  .currency-taka{
+      margin-left: -35px;
+  }
+
+  .card-btn{
+      border: none;
+      border-radius: 3px;
+      width: 100%;
+      background-color: #006A4E;
+      padding: 15px;
+      cursor: pointer;
+      margin: 0px;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      transition: transform 1s;
+  }
+
+  .card-btn:hover{
+      transform: translateY(-2px);
+  }
 
 
 
