@@ -39,7 +39,7 @@ body{
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    margin-right: -92px;
+    margin-right: -82px;
     z-index: 999;
 }
 
@@ -68,7 +68,7 @@ body{
 .display p{
     font-weight: bolder;
     color: #006A4E;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .middle-img{
@@ -138,7 +138,7 @@ body{
     height: 100vh;
     width: 18%;
     position: fixed;
-    top: 85px;
+    top: 82px;
     /* border: 1px solid black; */
     display: block;
     scroll-behavior: smooth;
@@ -171,8 +171,8 @@ body{
       color: #006a4e;
       cursor: pointer;
       transition: transform 1s;
-      margin-bottom: -15px;
-      font-size: 15px;
+      margin-bottom: -10px;
+      font-size: 13px;
       font-weight: bolder;
   }
 
@@ -235,7 +235,7 @@ body{
       justify-content: center;
       position: fixed;
       z-index: 999;
-      left: 275px;
+      left: 247px;
       top: 80px;
       padding: 0 15px;
       border: none;
@@ -269,8 +269,8 @@ body{
     position: relative;
     width: 81%;
     display: block;
-    top: 67px;
-    left: 291px;
+    top: 66px;
+    left: 260px;
     right: 0;
   }
 
@@ -360,7 +360,7 @@ body{
   .box{
       position: relative;
       /* top: -662px; */
-      left: 292px;
+      left: 260px;
       width: 100%;
   }
 
@@ -491,8 +491,13 @@ body{
   }
 
   .fresh-category{
-      height: 400px;
-      width: 283px !important;
+      height: 387px;
+      width: 254px !important;
+  }
+
+  .regular-title{
+      right: 10px;
+      background-color: #0097F5 !important;
   }
 
   .details-btn{
@@ -577,7 +582,7 @@ body{
   }
 
   .shodaimama-card-item{
-      width: 220px !important;
+      width: 198px !important;
   }
 
   .shodaimama-card-img{
@@ -601,7 +606,7 @@ body{
   }
 
   .why-shodaiMama-card-item{
-      width: 263px !important;
+      width: 234px !important;
       padding: 0px 10px !important;
       height: 300px !important;
   }
@@ -615,7 +620,7 @@ body{
 /* Footer style  */
 .footer{
     position: relative;
-      left: 276px;
+      left: 247px;
       width: 80%;
       bottom: 0px;
       padding: 0px 15px;
