@@ -311,7 +311,7 @@ body{
   .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('/images/slider1.png');
+    background: url('https://bucket.shodaimama.com/files/sm/images/T16nh11640530118286U4YYkV.jpeg');
     background-size: 100% 100%;
     /* background-size: cover; */
     animation: slider 5s infinite linear;
@@ -319,18 +319,18 @@ body{
 
   @keyframes slider{
     0%{
-        background-image: url('/images/slider2.png');
+        background-image: url('https://bucket.shodaimama.com/files/sm/images/csvw8b1639978620805J6NYQ3.png');
     }
     50%{
-        background-image: url('/images/slider5.png');
+        background-image: url('https://bucket.shodaimama.com/files/sm/images/lfYjG51639978759343YtI18U.png');
     }
     100%{
-        background-image: url('/images/slider1.jpeg');
+        background-image: url('https://bucket.shodaimama.com/files/sm/images/T16nh11640530118286U4YYkV.jpeg');
     }
 }
 
   .item-2 {
-    background: url('/images/slider2.png');
+    background: url('https://bucket.shodaimama.com/files/sm/images/lfYjG51639978759343YtI18U.png');
     background-size: 100% 100%;
     /* background-size: cover; */
     animation: slider 20s infinite linear;
@@ -338,7 +338,7 @@ body{
 
  
   .item-3 {
-    background: url('/images/slider5.png');
+    background: url('https://bucket.shodaimama.com/files/sm/images/lfYjG51639978759343YtI18U.png');
     /* background-size: cover; */
     background-size: 100% 100%;
     animation: slider 20s infinite linear;
