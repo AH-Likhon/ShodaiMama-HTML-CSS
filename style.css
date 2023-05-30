@@ -77,13 +77,10 @@ body{
     cursor: pointer;
 }
 
-.fa-solid.fa-chevrons-left.middle-img2{
-    /* width: 80px;
-    height: 30px; */
-    font-size: 80px;
-    color: red;
+.middle-img2{
+    width: 80px;
+    height: 30px;
     cursor: pointer;
-
 }
 
 .cart-board{
@@ -97,14 +94,8 @@ body{
     /* z-index: 0; */
 }
 
-<<<<<<< HEAD
 .fa-solid.fa-basket-shopping{
     width: 25px;
-=======
-.cart-img{
-    width: 18px;
-    margin-right: 2px;
->>>>>>> 89e042980cb0499112479b518b0a9b8b2207a604
 }
 
 .cart-position{
@@ -913,7 +904,3 @@ body{
         font-size: 14px;
     }
 }
-
-
-
-  
